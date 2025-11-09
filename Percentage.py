@@ -59,13 +59,13 @@ def calculate_choice_8():
     quit()
 
 selector=[
-    calculate_choice_1(),
-    calculate_choice_2(),
-    calculate_choice_3(),
-    calculate_choice_4(),
-    calculate_choice_5(),
-    calculate_choice_6(),
-    calculate_choice_7(),
-    calculate_choice_8()
+    calculate_choice_1,
+    calculate_choice_2,
+    calculate_choice_3,
+    calculate_choice_4,
+    calculate_choice_5,
+    calculate_choice_6,
+    calculate_choice_7,
+    calculate_choice_8
 ]
-selector[choice-1]
+selector[choice-1]()
